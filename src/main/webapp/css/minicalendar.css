@@ -1,0 +1,54 @@
+.table > tbody > tr > td {
+    padding: 0px;
+}
+a {
+    color: #b4957d;
+}
+a:hover{
+    color: #edc8a8;
+    text-decoration: none;
+}
+.code1{
+    font-size: 9px;
+    font-weight: 100;
+
+    background: #fffcdf;
+}
+.code1 a{
+    color: #a6a6a6;
+}
+.code2{
+    font-size: 11px;
+    font-weight: 300;
+
+    background: #fed5b0;
+}
+.code2 a {
+    color: #493433;
+}
+.code3{
+    font-size: 11px;
+    font-weight: 900;
+    /*color: #493433;*/
+    background: #c8a88b;
+}
+.code3 a {
+    color: #493433;
+}
+
+.code4{
+    font-size: 11px;
+    font-weight: 300;
+    background: #fffb9d;
+}
+.code4 a {
+    color : brown;
+}
+.code5{
+    font-size: 11px;
+    font-weight: 900;
+    background: #fdff17;
+}
+.code5 a {
+    color : brown;
+}

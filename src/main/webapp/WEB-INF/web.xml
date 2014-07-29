@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="2.4" id="fckeditor-java" xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+        >
+    <display-name>Kalender Kleine Prins</display-name>
+    <description>Kalender Kleine Prins</description>
+
+    <servlet>
+        <servlet-name>ConnectorServlet</servlet-name>
+        <servlet-class>
+            net.fckeditor.connector.ConnectorServlet
+        </servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ConnectorServlet</servlet-name>
+        <!-- Do not wrap this line otherwise Glassfish will fail to load this file -->
+        <url-pattern>/fckeditor/editor/filemanager/connectors/*</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- SMTP settings -->
+    <context-param>
+        <param-name>host</param-name>
+        <param-value>smtp.gmail.com</param-value>
+        <!--<param-value>localhost</param-value>-->
+    </context-param>
+
+    <context-param>
+        <param-name>port</param-name>
+        <param-value>587</param-value>
+        <!--<param-value>25</param-value>-->
+    </context-param>
+
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>webmaster@vb-dekleineprins.be</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>pass</param-name>
+        <param-value>62-CD-7D-4F-7C-00</param-value>
+    </context-param>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

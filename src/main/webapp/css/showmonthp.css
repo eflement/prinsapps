@@ -1,0 +1,37 @@
+* {
+    font-size: 20px;
+}
+
+body{
+    -webkit-print-color-adjust:exact;
+}
+
+.noPrint {
+    display: none;
+}
+
+td > p:last-of-type {
+    margin-bottom: 5px;
+}
+
+td > p:first-of-type {
+    margin-top: 5px;
+}
+
+#maandkalender table {
+    border: 2px solid #8b8b8b;
+    border-collapse: collapse;
+
+}
+
+#maandkalender th, #maandkalender td {
+    border: 1px solid #d3d3d3;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: -20px;
+    padding-bottom: 0px;
+}
+
+

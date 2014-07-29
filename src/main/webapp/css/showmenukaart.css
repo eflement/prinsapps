@@ -1,0 +1,29 @@
+a {
+    color: #b4957d;
+}
+a:hover{
+    color: #edc8a8;
+    text-decoration: none;
+}
+
+td > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/*hoofding vreemde dagen*/
+.code0 {
+    color: #c3c3c3;
+    background: #fef7df;
+}
+/*hoofding echte dagen*/
+.code1 {
+    background: #fee4be;
+}
+/*menu vreemde dagen*/
+.code2 {
+    color: #c3c3c3;
+}
+/*menu echte dagen*/
+.code3 {
+    background: #fffcdf;
+}
