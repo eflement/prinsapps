@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Resultaat</title>
-    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css' />" type="text/css"/>
+    <link rel="stylesheet" href="<c:url value='/css/styles.css' />" type="text/css"/>
 </head>
 <body>
 <div class="container">

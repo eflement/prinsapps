@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Vrije Basisschool De Kleine Prins - Kluizen</title>
-    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css' />" type="text/css"/>
+    <link rel="stylesheet" href="<c:url value='/css/styles.css' />" type="text/css"/>
 </head>
 <body>
 <jsp:include page="/WEB-INF/NavBar.jsp"></jsp:include>
@@ -19,7 +19,7 @@
         WEB Toepassingen
     </div>
 </div>
-<script src="<c:url value='/js/jquery.js' />"></script>
-<script src="<c:url value='/js/bootstrap.js' />"></script>
+<script src="<c:url value='/js/jquery.min.js' />"></script>
+<script src="<c:url value='/js/bootstrap.min.js' />"></script>
 </body>
 </html>

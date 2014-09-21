@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/styles.css'/>">
     <title>Error in Database</title>
 </head>
 <body>
@@ -26,8 +26,8 @@
             <p class="alert-danger">${DBError}</p>
         </div>
     </div>
-    <script src="<c:url value='/js/jquery.js'/>"></script>
-    <script src="<c:url value='/js/bootstrap.js'/>"></script>
+    <script src="<c:url value='/js/jquery.min.js'/>"></script>
+    <script src="<c:url value='/js/bootstrap.min.js'/>"></script>
 </div>
 </body>
 </html>

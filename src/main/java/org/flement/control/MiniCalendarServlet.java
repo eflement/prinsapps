@@ -15,6 +15,14 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+// we werken met dagcodes om aan te geven welke soort dag het is
+// de volgende codes gelden :
+// 1 = niet van de huidige maand
+// 2 = zonder actiteiten
+// 3 = met activiteiten
+// 4 = vandaag zonder activiteiten
+// 5 = vandaag met activiteiten
+
 @WebServlet(name = "MiniCalendarServlet", urlPatterns = "/minicalendar")
 public class MiniCalendarServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

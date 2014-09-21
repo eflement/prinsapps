@@ -15,19 +15,6 @@
         </sourceRoots>
       </configuration>
     </facet>
-    <facet type="web" name="Web2">
-      <configuration>
-        <descriptors>
-          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/fckeditor/editor/dialog/fck_replace.html" />
-        </descriptors>
-        <webroots>
-          <root url="file://$MODULE_DIR$/src/main/webapp/fckeditor/editor/dialog" relative="/WEB-INF" />
-        </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-        </sourceRoots>
-      </configuration>
-    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -40,7 +27,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="tomcat" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.geronimo.specs:geronimo-servlet_3.0_spec:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-servlet_2.5_spec:1.2" level="project" />
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />

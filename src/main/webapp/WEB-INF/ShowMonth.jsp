@@ -5,10 +5,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css'/>" media="screen">
+    <link rel="stylesheet" href="<c:url value='/css/styles.css'/>" media="screen">
     <link rel="stylesheet" href="<c:url value='/css/showmonthp.css'/>" media="print">
     <link rel="stylesheet" href="<c:url value='/css/showmonths.css'/>" media="screen">
-    <link rel="stylesheet" href="<c:url value='/css/font-awesome.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/font-awesome.min.css'/>">
     <%--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-wip/css/bootstrap.min.css">--%>
     <title></title>
 
@@ -184,8 +184,8 @@
 
 </div>
 <!-- einde class container -->
-<script src="<c:url value='/js/jquery.js'/>"></script>
-<script src="<c:url value='/js/bootstrap.js'/>"></script>
+<script src="<c:url value='/js/jquery.min.js'/>"></script>
+<script src="<c:url value='/js/bootstrap.min.js'/>"></script>
 <script src="<c:url value='/js/jquery.scrollTo.min.js'/>"></script>
 <script src="<c:url value='/js/showmonth.js'/>"></script>
 

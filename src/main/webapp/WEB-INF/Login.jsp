@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/styles.css'/>">
     <title>Kalender - Login</title>
 </head>
 <body>
@@ -41,7 +41,7 @@
         </form>
     </div>
 </div>
-<script src="<c:url value='/js/jquery.js' />"></script>
-<script src="<c:url value='/js/bootstrap.js' />"></script>
+<script src="<c:url value='/js/jquery.min.js' />"></script>
+<script src="<c:url value='/js/bootstrap.min.js' />"></script>
 </body>
 </html>

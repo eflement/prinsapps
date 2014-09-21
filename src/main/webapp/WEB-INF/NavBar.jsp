@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<link rel="stylesheet" href="<c:url value='/css/bootstrap.css' />" type="text/css"/>
+<link rel="stylesheet" href="<c:url value='/css/styles.css' />" type="text/css"/>
 <div class="container">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
@@ -32,7 +32,6 @@
                 </li>
                 <li><a href="<c:url value='/minicalendar'/>" target="_blank">Minicalendar</a></li>
                 <%--<li><a href="<c:url value='/inschrijvingsFormulier'/>" target="_blank">Formulier</a></li>--%>
-                <li><a href="<c:url value='/contactFormulier?TO=webmaster'/>" target="_blank">ContactFormulier</a></li>
                 <li><a href="<c:url value='/logout'/>">Log uit</a></li>
             </ul>
         </div>
