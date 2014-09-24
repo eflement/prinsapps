@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('#maandkalender').scrollTo('#tetonendag') ;
+//    $('#maandkalender').scrollTo('#tetonendag') ;
 
 
     $('#printknop').bind("click",function() {

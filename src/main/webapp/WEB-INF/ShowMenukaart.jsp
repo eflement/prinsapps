@@ -7,12 +7,7 @@
     <link rel="stylesheet" href="<c:url value='/css/styles.css'/>">
     <link rel="stylesheet" href="<c:url value='/css/showmenukaart.css'/>">
     <link rel="stylesheet" href="<c:url value='/css/font-awesome.min.css'/>">
-    <%--<link rel="stylesheet" href="<c:url value='/css/minicalendar.css'/>">--%>
     <title></title>
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="<c:url value='/js/respond.min.js'/>"></script>
-    <![endif]-->
 
 </head>
 <body style="background-color:transparent">
@@ -34,20 +29,20 @@
     </c:choose>
 
     <div class="row">
-        <table class="table" style="font-size: 14px">
+        <table class="table">
             <col width=10%>
             <col width=80%>
             <col width=10%>
             <tr>
-                <td>
-                    <a style="font-size:13px" href="<c:url value='/getmenucard?year=${previousYear}&month=${previousMonth}&navbar=${navbar}'/>"><i
-                            class="icon-circle-arrow-left icon-large"></i></a>
+                <td class="success">
+                    <a  href="<c:url value='/getmenucard?year=${previousYear}&month=${previousMonth}&navbar=${navbar}'/>"><i
+                            class="fa fa-arrow-circle-left fa-2x"></i></a>
                 </td>
-                <td class="text-center" style="color: #493433">
+                <td class="text-center success" style="color: #ffffff; font-size: 16px">
                     <strong>${maandenVanHetJaar[requestScope.month - 1]} ${requestScope.year}</strong></td>
-                <td>
+                <td class="success">
                     <a style="font-size:13px" href="<c:url value='/getmenucard?year=${nextYear}&month=${nextMonth}&navbar=${navbar}'/>"><i
-                            class="icon-circle-arrow-right icon-large pull-right"></i></a>
+                            class="fa fa-arrow-circle-right fa-2x pull-right"></i></a>
                 </td>
             </tr>
         </table>

@@ -35,9 +35,10 @@ a:hover{
 }
 .code5{
     font-size: 14px;
-    background: #fdff17;
-}
-.code5 a {
-    font-size: 14px;
+    /*background: #fdff17;*/
     background: #f89406;
 }
+/*.code5 a {*/
+    /*font-size: 14px;*/
+    /*background: #fdff17;*/
+/*}*/

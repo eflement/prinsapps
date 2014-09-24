@@ -115,7 +115,8 @@
     <div class="row" id="maandkal" style="margin-top: -5px">
         <div id="maandkalender"
                 <c:if test="${view != 'full'}">
-                    class="table-bordered" style="max-height: 282px;overflow-y:scroll;overflow-x:hidden"
+                    <%--class="table-bordered" style="max-height: 282px;overflow-y:scroll;overflow-x:hidden"--%>
+                    class="table-bordered"
                 </c:if>
                 >
             <!-- end class row-fluid -->
@@ -186,7 +187,7 @@
 <!-- einde class container -->
 <script src="<c:url value='/js/jquery.min.js'/>"></script>
 <script src="<c:url value='/js/bootstrap.min.js'/>"></script>
-<script src="<c:url value='/js/jquery.scrollTo.min.js'/>"></script>
+<%--<script src="<c:url value='/js/jquery.scrollTo.min.js'/>"></script>--%>
 <script src="<c:url value='/js/showmonth.js'/>"></script>
 
 </body>
