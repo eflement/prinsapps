@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="<c:url value='/css/styles.css'/>" media="screen">
+    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css'/>" media="screen">
     <link rel="stylesheet" href="<c:url value='/css/showmonthp.css'/>" media="print">
     <link rel="stylesheet" href="<c:url value='/css/showmonths.css'/>" media="screen">
     <link rel="stylesheet" href="<c:url value='/css/font-awesome.min.css'/>">
@@ -53,10 +53,10 @@
             <tr>
                 <td>
                     <div class="btn-group noPrint">
-                        <button class="btn btn-sm btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
+                        <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">
                             ${maandenVanHetJaar[requestScope.month - 1]}&nbsp;&nbsp;<span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu" style="font-size: 12px">
+                        <ul class="dropdown-menu">
                             <li><a href="<c:url value='/getmonth?action=show&year=${year}&month=1&navbar=${navbar}'/>">januari</a>
                             </li>
                             <li><a href="<c:url value='/getmonth?action=show&year=${year}&month=2&navbar=${navbar}'/>">februari</a>
@@ -84,10 +84,10 @@
                 </td>
                 <td>
                     <div class="btn-group pull-right noPrint">
-                        <button class="btn btn-sm btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                        <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
                             ${year}&nbsp;&nbsp;<span class="caret"></span>
                         </button>
-                        <ul class="dropdown-menu" style="font-size: 12px">
+                        <ul class="dropdown-menu">
                             <li>
                                 <a href="<c:url value='/getmonth?action=show&year=${year - 2}&month=${month}&navbar=${navbar}'/>">${year - 2}</a>
                             </li>
@@ -124,7 +124,7 @@
                 <col style="width:4%">
                 <col style="width:4%; text-align: center">
                 <col style="width:92%">
-                <tbody style="font-size: 12px">
+                <tbody>
                 <c:set var="tetonendag" value="${day}"></c:set>
                 <c:forEach var="dag" items="${dagenVanMaand}">
                 <c:set var="dezedag" value="${dag.dagNummer}"></c:set>
@@ -136,7 +136,7 @@
                 <col style="width:4%">
                 <col style="width:4%">
                 <col style="width:92%">
-                <tbody style="font-size: 12px">
+                <tbody>
                 </c:if>
                 <tr
                         <c:choose>

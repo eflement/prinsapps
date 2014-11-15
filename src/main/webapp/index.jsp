@@ -3,7 +3,7 @@
 <html>
 <head>
     <title>Vrije Basisschool De Kleine Prins - Kluizen</title>
-    <link rel="stylesheet" href="<c:url value='/css/styles.css' />" type="text/css"/>
+    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css' />" type="text/css"/>
 </head>
 <body>
 <jsp:include page="/WEB-INF/NavBar.jsp"></jsp:include>

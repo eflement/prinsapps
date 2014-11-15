@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="<c:url value='/css/styles.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css'/>">
     <link rel="stylesheet" href="<c:url value='/css/showmenukaart.css'/>">
     <link rel="stylesheet" href="<c:url value='/css/font-awesome.min.css'/>">
     <title></title>
@@ -38,10 +38,10 @@
                     <a  href="<c:url value='/getmenucard?year=${previousYear}&month=${previousMonth}&navbar=${navbar}'/>"><i
                             class="fa fa-arrow-circle-left fa-2x"></i></a>
                 </td>
-                <td class="text-center success" style="color: #ffffff; font-size: 16px">
+                <td class="text-center success" style="font-size: large" >
                     <strong>${maandenVanHetJaar[requestScope.month - 1]} ${requestScope.year}</strong></td>
                 <td class="success">
-                    <a style="font-size:13px" href="<c:url value='/getmenucard?year=${nextYear}&month=${nextMonth}&navbar=${navbar}'/>"><i
+                    <a href="<c:url value='/getmenucard?year=${nextYear}&month=${nextMonth}&navbar=${navbar}'/>"><i
                             class="fa fa-arrow-circle-right fa-2x pull-right"></i></a>
                 </td>
             </tr>

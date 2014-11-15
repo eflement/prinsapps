@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="<c:url value='/css/styles.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css'/>">
     <title>Error in Database</title>
 </head>
 <body>

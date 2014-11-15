@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <link rel="stylesheet" href="<c:url value='/css/styles.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css'/>">
     <title>Kalender - Login</title>
 </head>
 <body>

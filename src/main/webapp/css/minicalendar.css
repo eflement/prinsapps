@@ -3,27 +3,33 @@ body {
 }
 
 table  td,th  {
+    background-color: #1A242F;
+    color: #d3d3d3;
     height: 35px;
 }
 table th a {
-    color: #7A8288;
+    color: #3498DB;
 }
-table th a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
+
 a {
-    color: #ffffff;
+    color: #3498DB;
     font-weight: 500;
 }
+
 a:hover{
-    color: #ffffff;
+    color: #3498DB;
+    text-decoration: underline;
+}
+table a:not(.btn), .table a:not(.btn) {
+    text-decoration: none;
+}
+table a:hover {
+    color: #3498DB;
     text-decoration: underline;
 }
 .code1{
     font-size: 12px;
-    /* background: #7A8288; */
-    background: #d3d3d3;
+    background: #ECF0F1;
     color: #a9a9a9;
 }
 /*.code1 a{*/
@@ -31,15 +37,13 @@ a:hover{
 /*}*/
 .code2{
     font-size: 12px;
-    /* background:  #52575C; */
-    /* background: #7A8288; */
-    background:  #52575C;
+    background:  #2C3E50;
     color: #797979;
 }
 .code3{
     font-size: 14px;
     /* background: #5bc0de; */
-    background:  #52575C;
+    background:  #2C3E50;
 }
 .code4{
     font-size: 14px;

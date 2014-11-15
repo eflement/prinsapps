@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="<c:url value='/css/styles.css'/>">
+    <link rel="stylesheet" href="<c:url value='/css/bootstrap.css'/>">
     <link rel="stylesheet" href="<c:url value='/css/minicalendar.css'/>">
     <link rel="stylesheet" href="<c:url value='/css/font-awesome.min.css'/>">
     <title></title>
