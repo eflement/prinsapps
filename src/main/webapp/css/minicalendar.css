@@ -1,3 +1,7 @@
+body {
+    background-color: transparent;
+}
+
 table  td,th  {
     height: 35px;
 }
@@ -5,29 +9,37 @@ table th a {
     color: #7A8288;
 }
 table th a:hover {
-    color: #ccc;
+    color: #ffffff;
+    text-decoration: underline;
 }
 a {
-    color: #3A3F44;
+    color: #ffffff;
+    font-weight: 500;
 }
 a:hover{
-    color: #7A8288;
-    text-decoration: none;
+    color: #ffffff;
+    text-decoration: underline;
 }
 .code1{
     font-size: 12px;
-    background: #7A8288;
+    /* background: #7A8288; */
+    background: #d3d3d3;
+    color: #a9a9a9;
 }
 /*.code1 a{*/
     /*color: #a6a6a6;*/
 /*}*/
 .code2{
-    font-size: 14px;
+    font-size: 12px;
+    /* background:  #52575C; */
+    /* background: #7A8288; */
     background:  #52575C;
+    color: #797979;
 }
 .code3{
     font-size: 14px;
-    background: #5bc0de;
+    /* background: #5bc0de; */
+    background:  #52575C;
 }
 .code4{
     font-size: 14px;

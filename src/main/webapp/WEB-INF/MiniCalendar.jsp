@@ -121,6 +121,9 @@
             <%-- einde feitelijke kalenderdagen--%>
             </tbody>
         </table>
+        <p>&nbsp;</p>
+        <p style="font-size: larger" class="text-center"><a href="http://new.vb-dekleineprins.be/node/88" target="_parent">
+            <i class="fa fa-calendar"></i> Belangrijke data</a></p>
     </div>
 </div>
 <!-- einde class container -->
