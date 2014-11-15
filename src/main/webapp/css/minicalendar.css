@@ -1,3 +1,7 @@
+body {
+    background-color: transparent;
+}
+
 table  td,th  {
     height: 35px;
 }
@@ -16,18 +20,21 @@ a:hover{
 }
 .code1{
     font-size: 12px;
-    background: #7A8288;
+    /* background: #7A8288; */
+    background: #d3d3d3;
 }
 /*.code1 a{*/
     /*color: #a6a6a6;*/
 /*}*/
 .code2{
     font-size: 14px;
-    background:  #52575C;
+    /* background:  #52575C; */
+    background: #7A8288;
 }
 .code3{
     font-size: 14px;
-    background: #5bc0de;
+    /* background: #5bc0de; */
+    background:  #52575C;
 }
 .code4{
     font-size: 14px;
