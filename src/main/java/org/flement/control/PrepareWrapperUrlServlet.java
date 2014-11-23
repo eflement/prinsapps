@@ -46,7 +46,7 @@ public class PrepareWrapperUrlServlet extends HttpServlet {
             statement.close();
             connection.close();
 //            String site = new String("http://www.vb-dekleineprins.be/index.php?option=com_wrapper&Itemid=270");
-            String site = new String("http://new.vb-dekleineprins.be/maandkalender");
+            String site = new String("http://www.vb-dekleineprins.be/maandkalender");
 //            String site = new String("/getmonth?action=wrapped");
             response.sendRedirect(site);
         } catch (SQLException e) {
